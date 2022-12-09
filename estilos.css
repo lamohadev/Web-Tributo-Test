@@ -17,8 +17,14 @@ header {
     margin-right: auto;
     margin-left: auto;
 }
+.logo {
+    display: inline-block;
+    width: 50%;
+}
 
 .menu-list {
+    display: inline-block;
+    width: 49%;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -45,5 +51,6 @@ nav a {
     }
     .logo {
         text-align: center;
+        width: 100%;
     }
 }
