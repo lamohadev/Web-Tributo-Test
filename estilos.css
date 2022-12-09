@@ -33,14 +33,22 @@ header {
 
 .menu-list li {
     display: inline-block;
-    width: 15%;
-    padding: 10 0 10 0;
+    padding: 10 10;
     text-align: center;
     border-radius: 10%;
 }
 
+#inicio {
+    background-color: burlywood;
+    padding: 10 20;
+}
+
+#inicio a:hover {
+    color: #F4ECD9;    
+}
+
 .menu-list li:hover {
-    background-color: aqua;
+    background-color: #F4ECD9;
 }
 
 nav a {
